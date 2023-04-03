@@ -1,22 +1,24 @@
 # 0 to 9 American Sign Language Model
-![valid gestures](https://raw.github.com/AladdinT/0-to-9-ASL/master/media/asl_numbers.png)
+<img src="https://raw.github.com/AladdinT/0-to-9-ASL/master/media/asl_numbers.png"  width="500">
 <br>
 Estimates hand pose using MediaPipe.<br> 
 This is a sample program that recognizes hand gestures with a simple MLP using the detected key points.
+
 <br> 
+
 _️**This is forked from [kinivi/hand-gesture-recognition-mediapipe](https://github.com/kinivi/hand-gesture-recognition-mediapipe).**_
 <br>
 
-<br>
-<img src="https://raw.github.com/AladdinT/0-to-9-ASL/master/media/animation.gif" width="200" height="150">
-
-<br>
 
 # Demo
 Here's how to run the demo using your webcam.
 ```bash
 python app.py
 ```
+<br>
+<img src="https://raw.github.com/AladdinT/0-to-9-ASL/master/media/animation.gif" width="200" height="150">
+
+<br>
 
 The following options can be specified when running the demo.
 * --device<br>Specifying the camera device number (Default：0)
